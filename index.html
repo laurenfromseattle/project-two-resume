@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- Character set: tells the browser how to read the document. -->
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Optimizes the mobile experience. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lauren Tucker | Front-End Web Developer</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Site description: under 155 characters -->
+  <meta name="description" content="This is the resume site of Lauren Tucker, a front-end web developer based in Seattle. She's looking for full-time employment, projects or collaborations.">
+
+  <!-- Loads local jQuery library. -->
+  <script src="js/jQuery.js"></script>
+
+  <!-- Loads helper JavaScript for resumeBuilder. -->
+  <script src="js/helper.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Header element includes introductory content: logo, name and title, and contact -->
+  <header>
+
+    <!-- Logo, Name and Title, Contact row -->
+    <div class="row">
+      
+      <!-- Logo Column -->
+      <div id="logo"></div>
+
+      <!-- Name, Title and Contact column -->
+      <div class="header">
+
+        <!-- Name and title row -->
+        <div class="row resumeHeader"></div>
+
+        <!-- Contact row -->
+        <ul id="topContacts" class="row"></ul>
+
+      </div>
+
+    </div>
+
+    <!-- Nav Row -->
+    <nav>
+      <ul class="row">
+        <li class="flex-item explore">Explore My Resume &gt;&gt;&gt;</li>
+        <li class="flex-item"><a href="#projects">Projects</a></li>
+        <li class="flex-item"><a href="#education">Education</a></li>
+        <li class="flex-item"><a href="#workExperience">Past Lives</a></li>
+        <li class="flex-item"><a href="#map-div">On the Map</a></li>
+      </ul>
+    </nav> 
+
+  </header>
+
+  <!-- One main element, unique to page. Contains the main content of the page. -->
+  <main class="main">
+
+    <!-- Introduction section: welcome message and skills -->
+    <section id="introduction" class="row"></section>
+
+        <!-- Projects Box -->
+        <section id="projects">
+          <h2>Projects</h2>
+        </section>
+
+        <!-- Education Box -->
+        <section id="education">
+          <h2>Education</h2>
+        </section>
+        
+        <!-- Work Experience Box -->
+        <section id="workExperience">
+          <h2>Past Lives</h2>
+        </section>
+
+        <!-- Map Box -->
+        <section id="map-div">
+          <h2>Where I've Lived and Worked</h2>
+        </section>
+
+        <section id="connect">
+          <h2>Let's Connect</h2>
+          <ul id="footerContacts" class="row"></ul>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Copyright © 2014. All rights reserved.</p>
+
+    </footer>
+
+  <!-- Builds web page dynamically. -->
+  <script src="js/resumeBuilder.js"></script>
+
+  <!-- Interactive Google map. -->
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+  </body>
+
+</html>
