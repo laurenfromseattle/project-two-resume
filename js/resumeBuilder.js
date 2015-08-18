@@ -104,6 +104,13 @@ var education = {
     courseURL : "https://verify.edx.org/cert/ad67ef7a1f8c46908b344780455cab65"
   },
   {
+    title : "Codecademy JavaScript",
+    mainURL : "http://www.codecademy.com",
+    school : "Codecademy",
+    dates : "Course completed August 17, 2015",
+    courseURL : "https://www.codecademy.com/en/tracks/javascript"
+  },
+  {
     title : "Codecademy Introduction to PHP",
     mainURL : "http://www.codecademy.com",
     school : "Codecademy",
